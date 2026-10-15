@@ -1,0 +1,6 @@
+.field      { display: flex; flex-direction: column; gap: 4px; }
+.label      { font-size: 0.875rem; font-weight: 500; color: var(--text); }
+.input      { padding: 9px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 0.9rem; outline: none; transition: border-color 0.15s; background: var(--input-bg); color: var(--text); }
+.input:focus      { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+.inputError { border-color: #ef4444; }
+.error      { font-size: 0.78rem; color: #dc2626; }

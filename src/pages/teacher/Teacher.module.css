@@ -1,0 +1,5 @@
+.page       { display: flex; flex-direction: column; gap: 20px; }
+.welcome    { font-size: 1.3rem; font-weight: 700; color: var(--text); margin: 0; }
+.statsGrid  { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.title      { font-size: 1.3rem; font-weight: 700; color: var(--text); margin: 0; }
+.header     { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }

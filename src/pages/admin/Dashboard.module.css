@@ -1,0 +1,10 @@
+.page    { display: flex; flex-direction: column; gap: 24px; }
+.heading { font-size: 1.4rem; font-weight: 700; color: var(--text); margin: 0; }
+.grid    { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+
+/* StatCard layout — target the CardBody inside */
+.stat :global(.body) { display: flex; align-items: center; gap: 16px; }
+
+.statIcon  { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.statValue { font-size: 1.5rem; font-weight: 700; color: var(--text); }
+.statLabel { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
